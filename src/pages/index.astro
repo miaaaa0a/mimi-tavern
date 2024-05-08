@@ -1,0 +1,40 @@
+---
+import '../styles/index.css';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>mimi tavern</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+		<link href="https://www.nerdfonts.com/assets/css/webfont.css" rel="stylesheet">
+		<script type="module">
+			import './node_modules/jquery/dist/jquery.min.js';
+			import './node_modules/@material/web/all.js';
+			import {styles as typescaleStyles} from './node_modules/@material/web/typography/md-typescale-styles.js';
+
+			document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
+		</script>
+	</head>
+	<body class="dark-mode">
+		<div class="scrolling-bg">
+			<span class="marquee">:3:3:3:3:3:3:3:3:3:3:3:3</span>
+			<span class="marquee">:3:3:3:3:3:3:3:3:3:3:3:3</span>
+		</div>
+		<div class="content-box">
+			<md-tabs id="tabs" class="tabs">
+				<md-primary-tab>About me</md-primary-tab>
+				<md-primary-tab>Credits</md-primary-tab>
+			</md-tabs>
+			<div id="content"></div>
+			<div class="social"></div>
+		</div>
+		<script src="../scripts/index.js"></script>
+		<script src="../scripts/theming.js"></script>
+	</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "mimi-tavern",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.6.0",
+    "@material/material-color-utilities": "^0.2.7",
+    "@material/web": "^1.4.1",
+    "astro": "^4.7.1",
+    "jquery": "^3.7.1",
+    "typescript": "^5.4.5"
+  }
+}

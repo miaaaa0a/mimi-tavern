@@ -1,5 +1,6 @@
 ---
 import '../styles/index.css';
+import '@material/web/typography/md-typescale-styles.css'
 ---
 
 <html lang="en">
@@ -12,14 +13,11 @@ import '../styles/index.css';
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-		<link href="https://www.nerdfonts.com/assets/css/webfont.css" rel="stylesheet">
-		<script type="module">
-			import './node_modules/jquery/dist/jquery.min.js';
-			import './node_modules/@material/web/all.js';
-			import {styles as typescaleStyles} from './node_modules/@material/web/typography/md-typescale-styles.js';
-
-			document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
+		<script is:inline src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+		<script>
+			import '@material/web/all.js';
 		</script>
+		<link href="https://www.nerdfonts.com/assets/css/webfont.css" rel="stylesheet">
 	</head>
 	<body class="dark-mode">
 		<div class="scrolling-bg">

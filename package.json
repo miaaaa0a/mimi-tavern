@@ -14,7 +14,6 @@
     "@material/material-color-utilities": "^0.2.7",
     "@material/web": "^1.4.1",
     "astro": "^4.7.1",
-    "jquery": "^3.7.1",
     "typescript": "^5.4.5"
   }
 }

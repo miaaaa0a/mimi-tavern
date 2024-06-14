@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
+:root {
+    background-color: #121212;
+    color: #fff;
+    --font-family: "Open Sans", sans-serif;
+    --color0: #101;
+    --color1: #212;
+    --color2: #323;
+    --color3: #434;
+}
+
+* {
+    font-family: var(--font-family);
+}
+
+.title {
+    text-align: center;
+    font-size: 48px;
+}
+
+.main {
+    border: 1px solid rgb(71, 38, 71);
+    border-radius: 5px;
+    background-color: var(--color2);
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    padding: 8px;
+}
+
+#judgement {
+    background-color: var(--color1);
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    border: 2px solid var(--color0);
+}
+
+.btns {
+    padding-top: 8px;
+}
+
+#lastfmbtn {
+    margin-top: 4px;
+    width: 210px;
+}
+
+#lastfmuser {
+    width: 200px;
+    margin-top: 4px;
+}
+
+input[type = button] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid var(--color3);
+    background-color: var(--color1);
+    color: #fff;
+}
+
+input[type = button]:hover {
+    background-color: var(--color2);
+}
+
+input[type = button]:active {
+    background-color: var(--color3);
+    border: 1px solid var(--color2);
+}
+

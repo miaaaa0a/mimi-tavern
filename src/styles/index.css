@@ -26,7 +26,6 @@ body {
     flex-flow: row nowrap;
     align-items: center;
     overflow: hidden;
-    height: 100vh;
 }
 
 .scrolling-bg .marquee {
@@ -36,18 +35,18 @@ body {
 }
 
 .marquee {
-    font-size: 64vh;
-    font-weight: 400;
+    margin: auto;
+    font-size: 140vh;
     opacity: 0.05;
     user-select: none;
 }
 
 @keyframes marquee {
     0% {
-        transform: translate(0, 0);
+        transform: translateX(0);
     }
     100% {
-        transform: translate(-100%, 0);
+        transform: translateX(-100%);
     }
 }
 
@@ -80,19 +79,24 @@ body {
 }
 
 .icon-wrapper {
-    padding: 4px;
+    padding: 0.5vmin;
 }
 
 .socialbtn {
-    font-size: 32px;
+    font-size: 2vmax;
 }
 
 .sourcebtn {
-    padding: 20px;
+    max-height: 20vmin;
+    max-width: 25vmin;
+    padding: 2.5vmin 2vmin 2.5vmin 2vmin;
+    font-size: 2vh;
 }
 
 .x-icon {
     fill: var(--md-sys-color-on-surface);
+    width: 4vmin;
+    height: 3.5vmin;
 }
 
 .social {

@@ -1,0 +1,28 @@
+---
+import '../../styles/judgement.css';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>AI judges your music taste</title>
+	</head>
+	<body>
+		<p class="title">Judgement</p>
+		<div class="main">
+			<p class="boxtext">Here's what the AI thinks about your music taste</p>
+			<textarea id="judgement" rows="10" cols="75" readonly>meowmeow</textarea><br>
+			<div class="btns">
+				<input type="button" id="roastbtn" value="Roast me!">
+				<input type="button" id="complbtn" value="Compliment me!">
+			</div>
+			<div class="lastfmstuff">
+				<input type="button" id="lastfmbtn" value="Connect to last.fm"><br>
+				<input type="text" id="lastfmuser" placeholder="Your last.fm username...">
+			</div>
+		</div>
+		<script src="../../scripts/judgement/index.js" />
+	</body>
+</html>

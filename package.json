@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.6.0",
+    "@astrojs/upgrade": "^0.3.3",
     "@material/material-color-utilities": "^0.2.7",
     "@material/web": "^1.4.1",
     "astro": "^4.7.1",

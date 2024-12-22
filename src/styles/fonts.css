@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Iosevka Aile';
+    src: url('/fonts/Iosevka-Aile.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Iosevka Aile Light';
+    src: url('/fonts/Iosevka-Aile-Light.woff2') format('woff2');
+    font-weight: lighter;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Iosevka Aile Heavy';
+    src: url('/fonts/Iosevka-Aile-Heavy.woff2') format('woff2');
+    font-weight: bolder;
+    font-style: normal;
+    font-display: swap;
+}

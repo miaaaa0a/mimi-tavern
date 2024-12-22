@@ -1,11 +1,12 @@
 :root {
-    --md-ref-typeface-brand: Poppins;
-    --md-ref-typeface-plain: Poppins;
+    --md-ref-typeface-brand: 'Iosevka Aile';
+    --md-ref-typeface-plain: 'Iosevka Aile Light';
 }
 
 body {
     background-color: var(--md-sys-color-background);
     color: var(--md-sys-color-on-surface);
+    font-family: 'Iosevka Aile', monospace;
 
     display: flex;
     justify-content: center;
@@ -37,7 +38,7 @@ body {
 
 .marquee {
     font-size: 64vh;
-    font-weight: 400;
+    font-family: 'Iosevka Aile Heavy', monospace;
     opacity: 0.05;
     user-select: none;
 }

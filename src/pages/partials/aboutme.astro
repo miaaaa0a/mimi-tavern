@@ -1,10 +1,18 @@
 ---
+import { DateTime, Interval } from "luxon";
 export const partial = true;
+
+const then = DateTime.local(2009, 1, 31, 12, 0, 0);
+const now = DateTime.now();
+let i = Interval.fromDateTimes(then, now);
+
+let age = Math.trunc(i.length('years'));
+console.log(age);
 ---
 
 <p class="md-typescale-display-small">haii!! im mia :3</p>
 <p class="md-typescale-body-medium">
-	i'm a 15 year old girl from belarus. i do some programming and also some music production (albeit the music i make sounds kind of trash). here's some more stuff about me listed in a prettier way:
+	i'm a {age} year old girl from belarus. i do some programming and also some music production (albeit the music i make sounds kind of trash). here's some more stuff about me listed in a prettier way:
 </p>
 <p class="md-typescale-title-large">coding languages</p>
 <md-list class="info-list">

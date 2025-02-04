@@ -15,6 +15,11 @@
     "@material/material-color-utilities": "^0.2.7",
     "@material/web": "^1.4.1",
     "astro": "^4.7.1",
+    "luxon": "^3.5.0",
     "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.4.2",
+    "@types/node": "^22.13.1"
   }
 }

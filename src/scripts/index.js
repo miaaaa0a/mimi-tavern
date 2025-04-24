@@ -13,9 +13,8 @@ var timeout = 200;
 function dynUpdate(partial) {
     $("#content").animate({"opacity": 0}, timeout);
     setTimeout(() => {
-        $("#content").load(partial);
+        $("#content").load(partial, "", () => { $("#content").animate({"opacity": 1}, timeout) });
     }, timeout);
-    $("#content").animate({"opacity": 1}, timeout);
 }
 
 $("#tabs").on("change", (event) => {

@@ -1,3 +1,5 @@
+import { lastfmmain } from './lastfm';
+
 document.addEventListener("keydown", e => {
     if (e.shiftKey) {
         $(".twt-icon").css('display', '');
@@ -24,6 +26,11 @@ $("#tabs").on("change", (event) => {
             dynUpdate("/partials/aboutme");
             break;
         case 1:
+            console.log("last.fm");
+            dynUpdate("/partials/lastfm");
+            setTimeout(() => { lastfmmain() }, 300);
+            break;
+        case 2:
             console.log("Credits");
             dynUpdate("/partials/credits");
             break;

@@ -11,15 +11,18 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.6.0",
-    "@astrojs/upgrade": "^0.3.3",
+    "@astrojs/upgrade": "^0.3.4",
+    "@astrojs/vercel": "^8.1.4",
     "@material/material-color-utilities": "^0.2.7",
-    "@material/web": "^1.4.1",
-    "astro": "^4.7.1",
-    "luxon": "^3.5.0",
-    "typescript": "^5.4.5"
+    "@material/web": "^1.5.1",
+    "@solely/simple-fm": "^1.7.2",
+    "astro": "^5.7.5",
+    "luxon": "^3.6.1",
+    "typescript": "^5.8.3",
+    "vite-require": "^0.2.3"
   },
   "devDependencies": {
-    "@types/luxon": "^3.4.2",
-    "@types/node": "^22.13.1"
+    "@types/luxon": "^3.6.2",
+    "@types/node": "^22.15.2"
   }
 }

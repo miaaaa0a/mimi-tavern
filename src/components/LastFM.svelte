@@ -25,7 +25,7 @@
     });
     let songTitle = $state('The Examples');
     let songArtist = $state('Exampler');
-    let scrobbleDate = $state('...');
+    let scrobbleDate = $state('playing now!!');
     let spinnyCD = $state('https://files.catbox.moe/tv7080.gif');
     let isLoaded = $state(false);
 

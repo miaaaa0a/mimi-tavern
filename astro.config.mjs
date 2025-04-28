@@ -1,6 +1,7 @@
 import { defineConfig, envField } from 'astro/config';
 
 import vercel from "@astrojs/vercel";
+import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
 export default defineConfig({
@@ -11,6 +12,8 @@ export default defineConfig({
           LASTFM_USERNAME: envField.string({ context: "server", access: "secret"}),
       }
   },
+
   output: "server",
-  adapter: vercel()
+  adapter: vercel(),
+  integrations: [svelte({ extensions: ['.svelte'] })]
 });

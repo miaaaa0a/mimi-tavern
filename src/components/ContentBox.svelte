@@ -1,12 +1,17 @@
 <script>
     import { onMount } from 'svelte';
+    import AboutMe from './AboutMe.svelte';
+    import LastFM from './LastFM.svelte';
+    import Credits from './Credits.svelte';
     
     const tabsSpec = [
-        { id: 0, label: 'About me', url: '/partials/aboutme' },
-        { id: 1, label: 'last.fm', url: '/partials/lastfm' },
-        { id: 2, label: 'Credits', url: '/partials/credits' }
+        { id: 0, label: 'About me', component: AboutMe },
+        { id: 1, label: 'last.fm', component: LastFM },
+        { id: 2, label: 'Credits', component: Credits }
     ]
-    let content = $state('');
+    let Content = $state();
+    Content = tabsSpec[0].component;
+
     let visible = $state(true);
     let contentLoaded = $state(false);
     let activeTab = 0;
@@ -23,14 +28,9 @@
 
             await new Promise(resolve => setTimeout(resolve, 200));
 
-            const response = await fetch(tab.url);
-            if (!response.ok) {
-                throw new Error(`Failed to load: ${response.status}`);
-            }
+            Content = tab.component;
 
-            content = await response.text();
-
-            if (!content.includes('data-waits-for-load="true"')) {
+            if (tab.id != 1) {
                 handleComponentLoaded();
             }
         } catch(err) {
@@ -41,12 +41,13 @@
 
     function changeTabs(event) {
         const tab = tabsSpec.find(t => t.id === event.target.activeTabIndex);
+        //Content = tab.component;
         loadContent(tab);
         activeTab = tab.id;
     }
 
     onMount(() => {
-        loadContent(tabsSpec[activeTab]);
+        //loadContent(tabsSpec[activeTab]);
         document.addEventListener('componentLoaded', handleComponentLoaded);
         return () => {
             document.removeEventListener('componentLoaded', handleComponentLoaded);
@@ -62,7 +63,7 @@
         {/each}
     </md-tabs>
     <div id="content" class={visible ? 'visible' : 'hidden'} >
-        {@html content}
+        <Content />
     </div>
 </div>
 

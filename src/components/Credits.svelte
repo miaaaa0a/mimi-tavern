@@ -58,7 +58,7 @@
     <md-list-item>
 		<div slot="headline">{entry.name}</div>
 		<div slot="supporting-text">{entry.desc}</div>
-		<i slot="end" class="nf {entry.class}"></i>
+		<i slot="end" class="nf {entry.icon}"></i>
    	</md-list-item>
 	{/each}
 	<md-divider inset></md-divider>

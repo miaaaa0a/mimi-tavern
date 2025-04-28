@@ -37,7 +37,7 @@
             songTitle = response.now_playing.name;
             songArtist = response.now_playing.artist.name;
             if (response.now_playing.dateAdded) {
-                scrobbleDate = convertDate(response.now_playing.dateAdded);
+                scrobbleDate = 'scrobbled on ' + convertDate(response.now_playing.dateAdded);
             }
             spinnyCD = response.now_playing.image.at(-1).url;
         })
@@ -74,7 +74,7 @@
         <p class="songtitle">{songTitle}</p>
         <p class="songartist">{songArtist}</p>
         <a class="lastfmprofile" href="https://www.last.fm/user/redoverflow">my <span style="color: rgb(213, 16, 7);">last.fm</span> profile</a>
-        <p class="nowplayingdate">scrobbled on {scrobbleDate}</p>
+        <p class="nowplayingdate">{scrobbleDate}</p>
     </div>
     <div class="latestscrobbles">
         {#each response.scrobbles as s}

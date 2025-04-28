@@ -40,12 +40,10 @@
                 scrobbleDate = convertDate(response.now_playing.dateAdded);
             }
             spinnyCD = response.now_playing.image.at(-1).url;
-
-            isLoaded = true;
-            document.dispatchEvent(new CustomEvent('componentLoaded'));
         })
         .catch(function (error) {
             console.error('error during api request: ', error);
+        }).finally(() =>{
             isLoaded = true;
             document.dispatchEvent(new CustomEvent('componentLoaded'));
         });

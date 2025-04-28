@@ -4,6 +4,7 @@ import '../styles/index.css';
 import '../styles/lastfm.css';
 import '@material/web/typography/md-typescale-styles.css'
 import ContentBox from '../components/ContentBox.svelte';
+import Social from '../components/Social.svelte';
 ---
 
 <html lang="en">
@@ -39,7 +40,7 @@ import ContentBox from '../components/ContentBox.svelte';
 			<span class="marquee">mimimimimimimimimimimimi</span>
 		</div>
 		<ContentBox client:load />
-		<div class="social"></div>
+		<Social client:load />
 		<script src="../scripts/index.js"></script>
 		<script src="../scripts/theming.js"></script>
 	</body>

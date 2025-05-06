@@ -1,0 +1,13 @@
+name = "TechRebornJEI"
+filename = "TechRebornJEI-20.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e10d6b81d6fb5fbc8d34887bd06614648f4eae24"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6485160
+project-id = 1237141

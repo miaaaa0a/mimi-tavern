@@ -1,0 +1,13 @@
+name = "Customizable Player Models Simple Voice Chat compat"
+filename = "cpm-svc-compat-1.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "11d954eb33ddb8f15a4332139e441f242bbe9f6d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5291333
+project-id = 627994

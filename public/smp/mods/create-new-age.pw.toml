@@ -1,0 +1,13 @@
+name = "Create: New Age"
+filename = "create-new-age-fabric-1.20.1-1.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b7620a4c47911da46a7fff253ef0ce4ce7aa54ab"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5080952
+project-id = 905861

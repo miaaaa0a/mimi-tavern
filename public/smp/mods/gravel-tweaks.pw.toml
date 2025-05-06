@@ -1,0 +1,13 @@
+name = "Gravel Tweaks"
+filename = "gravel-tweaks-1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f583148be6326a7c84a7dea93e2c49bb49169e1d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6322971
+project-id = 1221734

@@ -584,11 +584,6 @@ hash = "73b57f14646c1b189bc46d07e7dc6537f6eb5b3846862e8c88d6e3ab92e63a73"
 metafile = true
 
 [[files]]
-file = "mods/distant-horizons.pw.toml"
-hash = "65009247d7407af232a5959d12d71f13332be181d2042e8e8d743e5096a825d4"
-metafile = true
-
-[[files]]
 file = "mods/ears.pw.toml"
 hash = "41417ba1d1148888789bb2a29b6bb24cd172e48ab0c3b6f2e5f701c773eab408"
 metafile = true
@@ -640,6 +635,11 @@ metafile = true
 [[files]]
 file = "mods/indium.pw.toml"
 hash = "60adfc1ee75f10a7290e18f3e2b82601a3d3915db0c53dabe08dd17daf1c7d76"
+metafile = true
+
+[[files]]
+file = "mods/iris-flywheel-compat.pw.toml"
+hash = "847552c175b3b4c35e8106a75dbd1243b530487105871650fa7cbb52c2418b3a"
 metafile = true
 
 [[files]]

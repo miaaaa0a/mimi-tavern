@@ -554,11 +554,6 @@ hash = "479b3a0a2e60138458a136bf176e84131646419b20fcaade540c948183d1d351"
 metafile = true
 
 [[files]]
-file = "mods/cpmsvcc.pw.toml"
-hash = "67ae1e33585f3a7c9dc1b556aa4427f17661689e1d507eeb89bc70951696f715"
-metafile = true
-
-[[files]]
 file = "mods/create-enchantment-industry-fabric.pw.toml"
 hash = "84fc5bc0ed662d6e919bc7e9218ad5129ddbf55d69afa17304873a8e729c42aa"
 metafile = true

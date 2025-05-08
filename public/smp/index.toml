@@ -501,6 +501,11 @@ hash = "2492a7266fab4c2ff411612180974b98510afb66a18e640f4de63ad615dd1e9e"
 metafile = true
 
 [[files]]
+file = "mods/audioplayer.pw.toml"
+hash = "811ca7d6ad5b1e3d086b68e3250a6d36f1ef1e5b5a8c9877d5f082117171c37f"
+metafile = true
+
+[[files]]
 file = "mods/blahaj.pw.toml"
 hash = "767d2eb6e75c164c71fcb0beb9e6a4b04ba512a41f8e8b7ed04a598b13df5036"
 metafile = true
@@ -574,11 +579,6 @@ hash = "301413f2c46934f196591abae5a4a2aa01984beee437cc6a4e3cfc15432dd5c1"
 metafile = true
 
 [[files]]
-file = "mods/custom-player-models-fabric.pw.toml"
-hash = "da163cd122bfaecff1c272ff32f43bcc43e1a10de9753bc735d650eda434aec8"
-metafile = true
-
-[[files]]
 file = "mods/debugify.pw.toml"
 hash = "73b57f14646c1b189bc46d07e7dc6537f6eb5b3846862e8c88d6e3ab92e63a73"
 metafile = true
@@ -616,6 +616,11 @@ metafile = true
 [[files]]
 file = "mods/ferritecore-fabric.pw.toml"
 hash = "28f53f38c111e3d6aa7f6854fa976a1456f4094dc504a929a6d4bf1f9f8cc30a"
+metafile = true
+
+[[files]]
+file = "mods/figura.pw.toml"
+hash = "7bd50f9e121e66862fbfb48da10ec96ef5671fe24dd85367830632273c08efc2"
 metafile = true
 
 [[files]]
@@ -675,6 +680,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "f126685bcfa9fa008a2bbce21d25c1efa3cd82f32d2e6e473cee22a128d2c7c8"
+metafile = true
+
+[[files]]
+file = "mods/joy-of-painting.pw.toml"
+hash = "1e5a89f9f111c331e555664cf73e830d9ea2626e8356e4f695137cfd0b255320"
 metafile = true
 
 [[files]]

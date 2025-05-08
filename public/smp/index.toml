@@ -619,11 +619,6 @@ hash = "28f53f38c111e3d6aa7f6854fa976a1456f4094dc504a929a6d4bf1f9f8cc30a"
 metafile = true
 
 [[files]]
-file = "mods/figura.pw.toml"
-hash = "7bd50f9e121e66862fbfb48da10ec96ef5671fe24dd85367830632273c08efc2"
-metafile = true
-
-[[files]]
 file = "mods/ftb-library-fabric.pw.toml"
 hash = "0ecc01cccbeb605112e074ecccebbfc9d0ef16a34636bebafb982123f6bdc212"
 metafile = true

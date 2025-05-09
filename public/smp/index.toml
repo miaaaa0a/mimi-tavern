@@ -648,11 +648,6 @@ hash = "53f5aadd30150b200ae66bc93f8f62077046a4b9640d8ce0dcba728545383ba0"
 metafile = true
 
 [[files]]
-file = "mods/gravestones.pw.toml"
-hash = "8b5908bca77a358572cb25abfd6353a879a0ce640937d085958eeaa67f64af8b"
-metafile = true
-
-[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "aad0371471f1b220ad525a70eaec6759ec70768129cd23a2164302175a25fb69"
 metafile = true
@@ -831,6 +826,11 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "eac5d5405a7020336980c31c15aab41e0a8fd6881f53deca8ad07c247e968206"
+metafile = true
+
+[[files]]
+file = "mods/youre-in-grave-danger.pw.toml"
+hash = "be4668df1dc577efc7d697dc82901ba8ee0387a3e23f5b11a150c237e77cb354"
 metafile = true
 
 [[files]]

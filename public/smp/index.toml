@@ -634,6 +634,11 @@ hash = "28f53f38c111e3d6aa7f6854fa976a1456f4094dc504a929a6d4bf1f9f8cc30a"
 metafile = true
 
 [[files]]
+file = "mods/ftb-chunks-fabric.pw.toml"
+hash = "3e1c0acfc7477a24b94bf6ae954fa2443602693d7a879ea07a089e6c1c2a78be"
+metafile = true
+
+[[files]]
 file = "mods/ftb-library-fabric.pw.toml"
 hash = "0ecc01cccbeb605112e074ecccebbfc9d0ef16a34636bebafb982123f6bdc212"
 metafile = true
@@ -720,6 +725,11 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "39d1aa66bf641027827a4bfcfe2c088ad6506405b0ff603fd65b1a9828d40c94"
+metafile = true
+
+[[files]]
+file = "mods/lootr-fabric.pw.toml"
+hash = "e7f748c45bab5a2d9c6c34d99703b9c8aa09e0c5e8069938cad9de693a9965e1"
 metafile = true
 
 [[files]]
@@ -831,6 +841,11 @@ metafile = true
 [[files]]
 file = "mods/valkyrien-skies.pw.toml"
 hash = "5cf798f094305b36d18848949c535561aabe63a07213da67a021c9facb93e48b"
+metafile = true
+
+[[files]]
+file = "mods/vmp-fabric.pw.toml"
+hash = "4208b682ff7512da07a0d9b0d786efd8fc4753fab3100d54bf4ceb1feeb956da"
 metafile = true
 
 [[files]]

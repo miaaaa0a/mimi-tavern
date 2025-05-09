@@ -486,11 +486,6 @@ hash = "b8d57e5d0c5c5354ab21827762cba59cacb79bbdf4e5fb1217f7c7a693e4758d"
 metafile = true
 
 [[files]]
-file = "mods/adorn.pw.toml"
-hash = "7b761f6ed4434ca9137777989add9400e0ab8eb9f0993a625a061b0afc0adf36"
-metafile = true
-
-[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "45d8570e9c13f5265d9d833ba2431e982ab9cf2760e86c6d5fd62dd3c092e18c"
 metafile = true

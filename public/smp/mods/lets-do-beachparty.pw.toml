@@ -1,0 +1,13 @@
+name = "[Let's Do] Beachparty"
+filename = "letsdo-beachparty-fabric-2.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "19bedc21c53856adf93ebb5f7cb3909beba56e45"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6508185
+project-id = 858691

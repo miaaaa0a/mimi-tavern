@@ -486,6 +486,11 @@ hash = "b8d57e5d0c5c5354ab21827762cba59cacb79bbdf4e5fb1217f7c7a693e4758d"
 metafile = true
 
 [[files]]
+file = "mods/adorn.pw.toml"
+hash = "7b761f6ed4434ca9137777989add9400e0ab8eb9f0993a625a061b0afc0adf36"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "45d8570e9c13f5265d9d833ba2431e982ab9cf2760e86c6d5fd62dd3c092e18c"
 metafile = true
@@ -549,6 +554,11 @@ hash = "ae11fe7c63207b7257ecb782d421655c6f56adb551b78ad430066edc94bee3b1"
 metafile = true
 
 [[files]]
+file = "mods/continuity.pw.toml"
+hash = "8459128658c0148ba1b89d87b4c86bd62f236c73cff860090eba0b08e49ae9ce"
+metafile = true
+
+[[files]]
 file = "mods/copycats.pw.toml"
 hash = "479b3a0a2e60138458a136bf176e84131646419b20fcaade540c948183d1d351"
 metafile = true
@@ -594,6 +604,11 @@ hash = "8a2f3a9ce84fab85c82e8b5e6c2bb622d9fe3f5448aa06c838a355e79090bb89"
 metafile = true
 
 [[files]]
+file = "mods/eureka-ships.pw.toml"
+hash = "616330455807730dff4ecf364a57d4b6282ec214af82e8d5a49be4e686408c6e"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "65200dab9378d27e5e542bdca05ebfc88dbbfc6f347227ea2def432e81691051"
 metafile = true
@@ -606,6 +621,11 @@ metafile = true
 [[files]]
 file = "mods/falling-leaves-fabric.pw.toml"
 hash = "d61a2e6668979d6245714e6de8618f643c85805c28e707288fd7c59dbedf0ead"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight-refabricated.pw.toml"
+hash = "ec4fb5f9327cb17c8133d6c09fe33163aed8f326a6d99a727166ddcd55b526b8"
 metafile = true
 
 [[files]]
@@ -693,6 +713,11 @@ hash = "e75515de6f60227e731affe8077018bd68d8556ebd62032a5e5bd5217b28d44f"
 metafile = true
 
 [[files]]
+file = "mods/lets-do-beachparty.pw.toml"
+hash = "8490bb2862c0b904349b9e15d9730d523a9bf784094729bbf83823b74846850c"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "39d1aa66bf641027827a4bfcfe2c088ad6506405b0ff603fd65b1a9828d40c94"
 metafile = true
@@ -757,6 +782,11 @@ hash = "db79b6400ab6b4e23f87b870f94a8540d72599d8e21ca946a2740a52d3a96867"
 metafile = true
 
 [[files]]
+file = "mods/slice-and-dice.pw.toml"
+hash = "194bcdfc276baead9bff868c35e1cfc070de74d2edccbe1b0a68711a170f3387"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "7e247fc51fae1fdaf7cca7a94f7222341d6673b68941a933adafaa4b921ec2b2"
 metafile = true
@@ -796,6 +826,11 @@ metafile = true
 [[files]]
 file = "mods/trinkets.pw.toml"
 hash = "d9bfec2cf36b6bae2d85a1136560e047ab8ce1b0e9798e7b6be5d0670f65fb55"
+metafile = true
+
+[[files]]
+file = "mods/valkyrien-skies.pw.toml"
+hash = "5cf798f094305b36d18848949c535561aabe63a07213da67a021c9facb93e48b"
 metafile = true
 
 [[files]]

@@ -506,6 +506,11 @@ hash = "811ca7d6ad5b1e3d086b68e3250a6d36f1ef1e5b5a8c9877d5f082117171c37f"
 metafile = true
 
 [[files]]
+file = "mods/better-combat-by-daedelus.pw.toml"
+hash = "b91695a9291401b4e09a28d7365e26513e5a2359b5edd4def897e673cd582f6d"
+metafile = true
+
+[[files]]
 file = "mods/blahaj.pw.toml"
 hash = "767d2eb6e75c164c71fcb0beb9e6a4b04ba512a41f8e8b7ed04a598b13df5036"
 metafile = true
@@ -546,6 +551,11 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "ae11fe7c63207b7257ecb782d421655c6f56adb551b78ad430066edc94bee3b1"
+metafile = true
+
+[[files]]
+file = "mods/clumps.pw.toml"
+hash = "e00fc109714e08b5ec2f5d74574eab80c9df8090d33e0d2fdeeeeb93df0c09b1"
 metafile = true
 
 [[files]]
@@ -609,8 +619,18 @@ hash = "d603d3af57d7425dd7abf0edea73a792d7d6809e41b8989f4f4a35152bb84c71"
 metafile = true
 
 [[files]]
+file = "mods/fabric-waystones.pw.toml"
+hash = "a898a207b694daf9953bc3858d96ac760d783e601b02d92f3b25edd49d23de60"
+metafile = true
+
+[[files]]
 file = "mods/falling-leaves-fabric.pw.toml"
 hash = "d61a2e6668979d6245714e6de8618f643c85805c28e707288fd7c59dbedf0ead"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight-refabricated.pw.toml"
+hash = "ec4fb5f9327cb17c8133d6c09fe33163aed8f326a6d99a727166ddcd55b526b8"
 metafile = true
 
 [[files]]
@@ -729,6 +749,11 @@ metafile = true
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "5553f08402ff3f277f68bf132463f187d14e2b12275ae319f934e4672f4b9288"
+metafile = true
+
+[[files]]
+file = "mods/playeranimator.pw.toml"
+hash = "ba530a2e04476bef87448769a8d3609a9225065dfaed24a54c401c3035a79ed3"
 metafile = true
 
 [[files]]

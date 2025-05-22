@@ -752,6 +752,11 @@ hash = "5553f08402ff3f277f68bf132463f187d14e2b12275ae319f934e4672f4b9288"
 metafile = true
 
 [[files]]
+file = "mods/pipepump.pw.toml"
+hash = "420b092c9345e2f03e55fc52253736244a852c63172619e86b71f49682910c52"
+metafile = true
+
+[[files]]
 file = "mods/playeranimator.pw.toml"
 hash = "ba530a2e04476bef87448769a8d3609a9225065dfaed24a54c401c3035a79ed3"
 metafile = true
@@ -789,6 +794,11 @@ metafile = true
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "13ea346ddc5a8accfa24ae6648e2fa318775450d2bdfb66539f00ea5e13014aa"
+metafile = true
+
+[[files]]
+file = "mods/simplepipes.pw.toml"
+hash = "82e313e8ef5f3fb98c5944d6f238f8ccb07656f1c41ff50ffa47c29b88391299"
 metafile = true
 
 [[files]]

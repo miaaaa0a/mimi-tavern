@@ -1,0 +1,13 @@
+name = "Audaki Cart Engine: Faster Minecarts / Balanced for Survival / Vanilla Carts Improved"
+filename = "ACE_mc1.20.6-3.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7455fc4b8245bc4745c161674f60700f2adf6968"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5371027
+project-id = 520576

@@ -486,6 +486,11 @@ hash = "b8d57e5d0c5c5354ab21827762cba59cacb79bbdf4e5fb1217f7c7a693e4758d"
 metafile = true
 
 [[files]]
+file = "mods/animal-feeding-trough.pw.toml"
+hash = "9225f9e3f8c0f684173091fd6b1c092b9fcc63f5ad359bdb48af16189f819d8b"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "45d8570e9c13f5265d9d833ba2431e982ab9cf2760e86c6d5fd62dd3c092e18c"
 metafile = true
@@ -498,6 +503,11 @@ metafile = true
 [[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "2492a7266fab4c2ff411612180974b98510afb66a18e640f4de63ad615dd1e9e"
+metafile = true
+
+[[files]]
+file = "mods/audaki-cart-engine.pw.toml"
+hash = "8b07789513bc51a5405bcd56e703e2e0b091d1a8d0a1b07640dce8570fe60572"
 metafile = true
 
 [[files]]
@@ -678,6 +688,11 @@ hash = "60adfc1ee75f10a7290e18f3e2b82601a3d3915db0c53dabe08dd17daf1c7d76"
 metafile = true
 
 [[files]]
+file = "mods/industrialization-de-astra.pw.toml"
+hash = "d4df85121015d5791fe86df51493c29d7529b52219bcc8428defa104b5fcc7fd"
+metafile = true
+
+[[files]]
 file = "mods/iris-flywheel-compat.pw.toml"
 hash = "847552c175b3b4c35e8106a75dbd1243b530487105871650fa7cbb52c2418b3a"
 metafile = true
@@ -735,6 +750,11 @@ metafile = true
 [[files]]
 file = "mods/memoryleakfix-fabric-1.17+-1.1.5.jar"
 hash = "b8ac33d7262e019710dd25e454116616bc9ed1f714ed910594b28a4c1da5adde"
+
+[[files]]
+file = "mods/modern-dynamics.pw.toml"
+hash = "caa5739308850a5212429d400095184122652b112022cbba34b537d99c32925e"
+metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
@@ -797,8 +817,8 @@ hash = "13ea346ddc5a8accfa24ae6648e2fa318775450d2bdfb66539f00ea5e13014aa"
 metafile = true
 
 [[files]]
-file = "mods/simplepipes.pw.toml"
-hash = "82e313e8ef5f3fb98c5944d6f238f8ccb07656f1c41ff50ffa47c29b88391299"
+file = "mods/simply-swords.pw.toml"
+hash = "2462ed00a731c1d65304279366a2fb5fd84c035f7fb6cc20e0a5639689b66d7d"
 metafile = true
 
 [[files]]

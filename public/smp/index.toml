@@ -767,11 +767,6 @@ hash = "5553f08402ff3f277f68bf132463f187d14e2b12275ae319f934e4672f4b9288"
 metafile = true
 
 [[files]]
-file = "mods/pipepump.pw.toml"
-hash = "420b092c9345e2f03e55fc52253736244a852c63172619e86b71f49682910c52"
-metafile = true
-
-[[files]]
 file = "mods/playeranimator.pw.toml"
 hash = "ba530a2e04476bef87448769a8d3609a9225065dfaed24a54c401c3035a79ed3"
 metafile = true

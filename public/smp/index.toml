@@ -688,11 +688,6 @@ hash = "60adfc1ee75f10a7290e18f3e2b82601a3d3915db0c53dabe08dd17daf1c7d76"
 metafile = true
 
 [[files]]
-file = "mods/industrialization-de-astra.pw.toml"
-hash = "d4df85121015d5791fe86df51493c29d7529b52219bcc8428defa104b5fcc7fd"
-metafile = true
-
-[[files]]
 file = "mods/iris-flywheel-compat.pw.toml"
 hash = "847552c175b3b4c35e8106a75dbd1243b530487105871650fa7cbb52c2418b3a"
 metafile = true

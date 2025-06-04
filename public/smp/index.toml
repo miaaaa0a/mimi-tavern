@@ -486,6 +486,11 @@ hash = "b8d57e5d0c5c5354ab21827762cba59cacb79bbdf4e5fb1217f7c7a693e4758d"
 metafile = true
 
 [[files]]
+file = "mods/almost-unified.pw.toml"
+hash = "4adced5c8e5d0ed6e870c835e9b6de1e9406ebfc5b901ac0bf92994b8c0a32dc"
+metafile = true
+
+[[files]]
 file = "mods/animal-feeding-trough.pw.toml"
 hash = "9225f9e3f8c0f684173091fd6b1c092b9fcc63f5ad359bdb48af16189f819d8b"
 metafile = true

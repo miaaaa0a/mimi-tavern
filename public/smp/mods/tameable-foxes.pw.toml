@@ -1,0 +1,13 @@
+name = "Tameable Foxes"
+filename = "tameable-foxes-1.0.3-fabric.1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "58bf25e25df3bf7782b4de2a12c87069ad2d83fd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6189677
+project-id = 1199733

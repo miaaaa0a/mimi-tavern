@@ -609,6 +609,11 @@ hash = "1f4e2750f8597559bc9a5a243c50db4478fd914be436806e4059b9b3f136c236"
 metafile = true
 
 [[files]]
+file = "mods/create-steam-n-rails.pw.toml"
+hash = "210a2ac7359605a83b8601e29fb8a16ea15420db1b2f70ae068941d12daf9f50"
+metafile = true
+
+[[files]]
 file = "mods/createaddition.pw.toml"
 hash = "301413f2c46934f196591abae5a4a2aa01984beee437cc6a4e3cfc15432dd5c1"
 metafile = true
@@ -782,6 +787,11 @@ hash = "5553f08402ff3f277f68bf132463f187d14e2b12275ae319f934e4672f4b9288"
 metafile = true
 
 [[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "9a0ab52020c3a2d073e71f07ce11b9d2d8ae0a17b8a3cf0c9227029a51df51c3"
+metafile = true
+
+[[files]]
 file = "mods/playeranimator.pw.toml"
 hash = "ba530a2e04476bef87448769a8d3609a9225065dfaed24a54c401c3035a79ed3"
 metafile = true
@@ -856,6 +866,11 @@ hash = "1fdde4abf4741c6923df80d0aaf058b8940e8fcb762a4bfa3594444acf228324"
 [[files]]
 file = "mods/stitch.pw.toml"
 hash = "1504528d2ce909168de23b30b92d1209f5f9c77899dab0bc7bc215918f037cce"
+metafile = true
+
+[[files]]
+file = "mods/tameable-foxes.pw.toml"
+hash = "e7793939a022ab1b8be4212f7a12549a24ecab05b33e2bd836fd76e0f64ba452"
 metafile = true
 
 [[files]]
